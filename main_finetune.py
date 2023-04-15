@@ -41,8 +41,10 @@ from miscc.config import cfg, cfg_from_file
 from miscc.losses import DAMSM_loss
 from sync_batchnorm import DataParallelWithCallback
 #from datasets_everycap import TextDataset
-from datasets import TextDataset
-from datasets import prepare_data
+# from datasets import TextDataset
+# from datasets import prepare_data
+from datasat_flower import TextDataset
+from datasat_flower import prepare_data
 from DAMSM import RNN_ENCODER, CNN_ENCODER
 from model import NetG, NetD
 
